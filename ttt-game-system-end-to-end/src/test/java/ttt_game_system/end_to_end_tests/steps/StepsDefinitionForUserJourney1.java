@@ -21,7 +21,7 @@ import java.net.http.HttpRequest.BodyPublishers;
  * Game Service System - A user journey from registration to join 
  * 
  */
-public class StepsDefinition {
+public class StepsDefinitionForUserJourney1 {
 
 	private final static String API_GATEWAY_URI = "http://localhost:8080";	
 	
@@ -48,7 +48,7 @@ public class StepsDefinition {
 	private String userSessionId;
 	private String playerSessionId;
 	
-	public StepsDefinition(){
+	public StepsDefinitionForUserJourney1(){
 	}
 		
     /* Scenario: A full journey from registration to join */

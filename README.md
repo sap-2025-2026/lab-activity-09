@@ -24,8 +24,12 @@ v1.0.0-20251119
            - steps defined in `ttt_game_service.component_tests.steps.StepsDefinition`
     - **End-to-End** test 
         - repo: `ttt-game-system-end-to-end`
-    	    - user journey description: `src/test/resources/ttt_game_system/user-journey-1.feature`
-            - steps implementation in `src/test/java`- `ttt_game_system.end_to_end_tests.steps.StepsDefinition` class
+    	    - user journeys description in `src/test/resources/ttt_game_system`
+              - `user-journey-1.feature` is about a single user registrating, logging in, creating a game and joining the game
+              - `user-journey-2.feature` is about two users playing
+            - steps implementation in `src/test/java`
+              - `ttt_game_system.end_to_end_tests.steps.StepsDefinitionForUserJourney1` class
+              - `ttt_game_system.end_to_end_tests.steps.StepsDefinitionForUserJourney2` class (only skeleton)
         - To run the test:
           - first spawn the system with `docker compose up` from `lab-activity-09` root directory
           - then run `ttt_game_system.end_to_end_tests.RunCucumberTest`

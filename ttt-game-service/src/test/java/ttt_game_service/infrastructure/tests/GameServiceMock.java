@@ -11,8 +11,6 @@ import ttt_game_service.domain.TTTSymbol;
 import ttt_game_service.domain.UserId;
 
 public class GameServiceMock implements GameService {
-
-	private Game game;
 	
 	public GameServiceMock() {
 	}
