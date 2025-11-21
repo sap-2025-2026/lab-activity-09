@@ -16,7 +16,7 @@ v1.0.0-20251119
     - **Integration** tests
 		- testing consumer proxies and adapters in `src/test/java/ttt_game_service.infrastructure.tests`
           - Testing API Gateway consumer proxy: `APIGatewayProxyTest`
-          - Testing Lobby Service consumer proxy: `LobbyServiceTest`
+          - Testing Lobby Service consumer proxy: `LobbyServiceProxyTest`
     - **Component** tests
     	- feature description in `src/test/resources/ttt_game_service`
         - test implementation in `src/test/java/ttt_game_service.component_tests`

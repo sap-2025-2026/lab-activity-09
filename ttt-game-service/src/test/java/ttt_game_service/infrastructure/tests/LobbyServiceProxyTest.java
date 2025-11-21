@@ -14,7 +14,7 @@ import ttt_lobby_service.infrastructure.GameServiceProxy;
 import static org.junit.jupiter.api.Assertions.fail;
 
 @DisplayName("Game Service Proxy for Lobby Service Test case")
-public class LobbyProxyTest {
+public class LobbyServiceProxyTest {
 
 	static Logger logger = Logger.getLogger("[LobbyProxyTest]");
 	private GameService gameService;
